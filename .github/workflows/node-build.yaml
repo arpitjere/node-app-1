@@ -1,8 +1,0 @@
-name: Node Application
-
-on:
-  workflow_dispatch:
-
-jobs:
-  build:
-    uses: arpitjere/reusable-workflows-demo/.github/workflows/node-build.yml@v1.0.0
